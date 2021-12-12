@@ -68,7 +68,7 @@ Steps:
    -GreedyFull:
    ./greedy arena 4 random
 
-3. To run the heuristic on google+ network (20,000+ vertices) under uniform threshold with \tau = 8:
+4. To run the heuristic on google+ network (20,000+ vertices) under uniform threshold with \tau = 8:
    - GreedyThresh: 
 	./greedy google_plus 1 uniform 8
 
@@ -81,7 +81,7 @@ Steps:
    - GreedyFull
 	./greedy google_plus 4 uniform 8
 
-4. To run the heuristic on arena network (10,000+ vertices) under uniform threshold with \tau = 8:
+5. To run the heuristic on arena network (10,000+ vertices) under uniform threshold with \tau = 8:
    - GreedyThresh:
    ./greedy arena 1 uniform 8
 
