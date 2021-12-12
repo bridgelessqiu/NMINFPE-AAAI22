@@ -3,7 +3,7 @@ Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamica
 
 ### A typical top-level directory layout
 
-    .
+    
     ├── build                   # Compiled files (alternatively `dist`)
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── src                     # Source files (alternatively `lib` or `app`)
