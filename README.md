@@ -15,7 +15,7 @@ Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamica
 - ----------------------
 -   Folder Structure   -
 - ----------------------
-NMINFPE-AAAI
+
 |_ ip/
 |   |_ algo.py
 |   |_ ip_solver.py
