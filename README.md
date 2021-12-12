@@ -27,18 +27,17 @@ Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamica
 		  |_ arena/ (a representative network)
 
 
-### Overview 
+### Directory Overview 
 
-Directory:
-  ip/: consists of the implementations of ILP formulation of NMIN-FPE
+  **ip/**: consists of the implementations of ILP formulation of NMIN-FPE
 
-  heuristics/: consists of implementations of the Greedy family
+  **heuristics/**: consists of implementations of the Greedy family
 
-  network/: consists of the testing case (random, uniform) for the representative networks google_plus and arena
+  **network/**: consists of the testing case (random, uniform) for the representative networks google_plus and arena
 
-- -------------------------------------------------
--      Instruction on running the heuristics      -
-- -------------------------------------------------
+
+### Instruction on running the heuristics    
+
 Required software: C++11
 
 Steps:
