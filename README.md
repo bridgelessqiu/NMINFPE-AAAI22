@@ -41,19 +41,19 @@ Code for the paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamic
 Required software: C++11
 
 Steps:
-1. cd heuristics/
+1. `cd heuristics/`
 2. To run the heuristic on google+ network (20,000+ vertices) under random threshold:
    - GreedyThresh: 
-	./greedy google_plus 1 random
+	`./greedy google_plus 1 random`
 
    - GreedyNP: 
-	./greedy google_plus 2 random
+	`./greedy google_plus 2 random`
 
    - GreedySub: 
-	./greedy google_plus 3 random
+	`./greedy google_plus 3 random`
 
    - GreedyFull: 
-	./greedy google_plus 4 random
+	`./greedy google_plus 4 random`
 
 3.  To run the heuristic on arena network (10,000+ vertices) under random threshold:
    - GreedyThresh:
