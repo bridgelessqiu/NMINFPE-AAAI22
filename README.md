@@ -108,5 +108,5 @@ Steps:
 3. `export PYTHONPATH=$GUROBI_HOME/lib/python3.6_utf32` (The command is not needed if you use python3.7)
 4. To run the solve on google+ network under random threshold:
    	`python3 ip_solver.py google_plus random`
-5. To run the solver on google+ network under uniform threshold with \tau = 8
+5. To run the solver on google+ network under uniform threshold with \tau = 8:
    	`python3 ip_solver.py google_plus uniform 8`
