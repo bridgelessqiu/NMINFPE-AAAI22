@@ -1,6 +1,17 @@
 # NMIN-FPE
 Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Complexity, Special Case Algorithms and Heuristics
 
+### A typical top-level directory layout
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
 - ----------------------
 -   Folder Structure   -
 - ----------------------
