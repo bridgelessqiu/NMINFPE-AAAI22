@@ -1,5 +1,5 @@
 # NMIN-FPE
-Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Complexity, Special Case Algorithms and Heuristics
+Code for the paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Complexity, Special Case Algorithms and Heuristics*
 
 ### Directory layout
 
