@@ -1,43 +1,30 @@
 # NMIN-FPE
 Code for the paper: Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Complexity, Special Case Algorithms and Heuristics
 
-### A typical top-level directory layout
+### Directory layout
 
-    
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-
-- ----------------------
--   Folder Structure   -
-- ----------------------
-
-├──  ip/
-|   |_ algo.py
-|   |_ ip_solver.py
-|   |_ results/
-|         |_ random_threshold/
-|         |_ uniform_threshold/
-|
-|_ heuristics/
-|      |_ syds.h
-|      |_ heuristic.h
-|      |_ heuristic.cpp
-|      |_ other_function.h
-|      |_ other_function.cpp
-|      |_ main.cpp
-|      |_ results/
-|            |_ random_thresh/
-|            |_ uniform_thresh/
-|  
-|_ networks/
-      |_ real
-          |_ google_plus/ (a representative network)
-          |_ arena/ (a representative network)
+	├──  ip/
+	|   |_ algo.py
+	|   |_ ip_solver.py
+	|   |_ results/
+	|         |_ random_threshold/
+	|         |_ uniform_threshold/
+	|
+	|_ heuristics/
+	|      |_ syds.h
+	|      |_ heuristic.h
+	|      |_ heuristic.cpp
+	|      |_ other_function.h
+	|      |_ other_function.cpp
+	|      |_ main.cpp
+	|      |_ results/
+	|            |_ random_thresh/
+	|            |_ uniform_thresh/
+	|  
+	|_ networks/
+	      |_ real
+		  |_ google_plus/ (a representative network)
+		  |_ arena/ (a representative network)
 
 
 ### Overview 
