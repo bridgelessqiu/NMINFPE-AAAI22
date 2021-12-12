@@ -39,9 +39,9 @@ NMINFPE-AAAI
           |_ google_plus/ (a representative network)
           |_ arena/ (a representative network)
 
--------------------
--    Overview     -
--------------------
+
+### Overview 
+
 Directory:
   ip/: consists of the implementations of ILP formulation of NMIN-FPE
 
