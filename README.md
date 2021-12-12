@@ -57,58 +57,56 @@ Steps:
 
 3.  To run the heuristic on arena network (10,000+ vertices) under random threshold:
    - GreedyThresh:
-   ./greedy arena 1 random
+   	`./greedy arena 1 random`
 
    - GreedyNP:
-   ./greedy arena 2 random
+   	`./greedy arena 2 random`
 
    - GreedySub:
-   ./greedy arena 3 random
+   	`./greedy arena 3 random`
 
    -GreedyFull:
-   ./greedy arena 4 random
+   	`./greedy arena 4 random`
 
 4. To run the heuristic on google+ network (20,000+ vertices) under uniform threshold with \tau = 8:
    - GreedyThresh: 
-	./greedy google_plus 1 uniform 8
+	`./greedy google_plus 1 uniform 8`
 
    - GreedyNP:
-	./greedy google_plus 2 uniform 8
+	`./greedy google_plus 2 uniform 8`
 
    - GreedySub:
-	./greedy google_plus 3 uniform 8
+	`./greedy google_plus 3 uniform 8`
 
    - GreedyFull
-	./greedy google_plus 4 uniform 8
+	`./greedy google_plus 4 uniform 8`
 
 5. To run the heuristic on arena network (10,000+ vertices) under uniform threshold with \tau = 8:
    - GreedyThresh:
-   ./greedy arena 1 uniform 8
+   	`./greedy arena 1 uniform 8`
 
    - GreedyNP:
-   ./greedy arena 2 uniform 8
+   	`./greedy arena 2 uniform 8`
 
    - GreedySub:
-   ./greedy arena 3 uniform 8
+   	`./greedy arena 3 uniform 8`
 
    - GreedyFull:
-   ./greedy arena 4 uniform 8
+   	`./greedy arena 4 uniform 8`
 
 If the ./greedy is corrputed, please use the following commnad to manually complie the code:
-	g++ -std=c++11 -O3 heuristic.cpp other_function.cpp main.cpp -o greedy
+	`g++ -std=c++11 -O3 heuristic.cpp other_function.cpp main.cpp -o greedy`
 
-- -------------------------------------------
--   Instruction on running the ILP solver   -
-- -------------------------------------------
+
+### Instruction on running the ILP solver 
+
 Required software: (1) python 3.6/7/8; (2) gurobi 9.1.1
 
 Steps:
-1. cd ip/
-3. Load gurobi
-3. export PYTHONPATH=$GUROBI_HOME/lib/python3.6_utf32
-   The above command is not needed if you use python3.7
+1. `cd ip/`
+3. `Load gurobi`
+3. `export PYTHONPATH=$GUROBI_HOME/lib/python3.6_utf32` (The command is not needed if you use python3.7)
 4. To run the solve on google+ network under random threshold:
-    - python3 ip_solver.py google_plus random
-
-   To run the solver on google+ network under uniform threshold with \tau = 8
-    - python3 ip_solver.py google_plus uniform 8
+   	`python3 ip_solver.py google_plus random`
+5. To run the solver on google+ network under uniform threshold with \tau = 8
+   	`python3 ip_solver.py google_plus uniform 8`
