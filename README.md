@@ -31,11 +31,11 @@ Paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Co
 
 ### Directory Overview 
 
-  **ip/**: consists of the implementations of ILP formulation of NMIN-FPE
+  **ip/**: Iimplementations of ILP formulation of NMIN-FPE
 
-  **heuristics/**: consists of implementations of the Greedy family
+  **heuristics/**: Implementations of the Greedy family
 
-  **network/**: consists of the testing case (random, uniform) for the representative networks google_plus and arena
+  **network/**: The testing case (random, uniform) for the representative networks google_plus and arena
 
 
 ### Instruction on running the heuristics    
