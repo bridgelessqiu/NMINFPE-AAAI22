@@ -31,20 +31,20 @@ Paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Co
 
 ## Directory Overview 
 
-  **ip/**: Iimplementations of ILP formulation of NMIN-FPE
+  1. **ip/**: Iimplementations of ILP formulation of NMIN-FPE
 
-  **heuristics/**: Implementations of the Greedy family
+  2. **heuristics/**: Implementations of the Greedy family
 
-  **network/**: The testing case (random, uniform) for the representative networks google_plus and arena
+  3. **network/**: The testing case (random, uniform) for the representative networks google_plus and arena
 
 
-### Instruction on running the heuristics    
+## Instruction on running the heuristics    
 
-Required software: C++11
+Required software: **C++11**
 
 Steps:
 1. `cd heuristics/`
-2. To run the heuristic on google+ network (20,000+ vertices) under random threshold:
+2. To run the heuristic on google+ network (20,000+ vertices) under random thresholds:
    - GreedyThresh: 
 	`./greedy google_plus 1 random`
 
@@ -100,9 +100,9 @@ If the ./greedy is corrputed, please use the following commnad to manually compl
 	`g++ -std=c++11 -O3 heuristic.cpp other_function.cpp main.cpp -o greedy`
 
 
-### Instruction on running the ILP solver 
+## Instructions on running the ILP solver 
 
-Required software: (1) python 3.6/7/8; (2) gurobi 9.1.1
+Required software: (1) **python 3.6/7/8**; (2) **gurobi 9.1.1**
 
 Steps:
 1. `cd ip/`
