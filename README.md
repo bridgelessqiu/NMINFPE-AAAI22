@@ -1,7 +1,6 @@
 # NMIN-FPE
 Paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Complexity, Special Case Algorithms and Heuristics*
-
-
+<br/>
 **Full version** (contains complete proofs of theorems): [https://arxiv.org/pdf/2301.04090.pdf]
 
 ### Directory layout
