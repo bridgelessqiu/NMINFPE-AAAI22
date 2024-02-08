@@ -3,7 +3,7 @@ Paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Co
 <br/>
 **Full version** (contains complete proofs of theorems): [https://arxiv.org/pdf/2301.04090.pdf]
 
-### Directory layout
+## Directory layout
 
 	├──  ip/
 	|   |_ algo.py
@@ -29,7 +29,7 @@ Paper: *Finding Nontrivial Minimum Fixed Points in Discrete Dynamical Systems:Co
 		  |_ arena/ (a representative network)
 
 
-### Directory Overview 
+## Directory Overview 
 
   **ip/**: Iimplementations of ILP formulation of NMIN-FPE
 
